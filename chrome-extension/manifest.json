@@ -19,7 +19,7 @@
   "content_scripts": [
     { "matches" : ["http://habit-trainer.herokuapp.com/*",
                    "https://habit-trainer.herokuapp.com/*"],
-      "js": ["test.js"],
+      "js": ["ht-login.js"],
       "all_frames": true,
       "run_at": "document_end"
     }
